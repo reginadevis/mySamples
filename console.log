@@ -1,0 +1,25 @@
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::  (v2.2.0.BUILD-SNAPSHOT)
+
+2019-01-15 17:38:15.093  INFO 7367 --- [  restartedMain] c.i.s.s.StudentServicesApplication       : Starting StudentServicesApplication on regina-Inspiron-5559 with PID 7367 (/home/regina/workspace/student-services/target/classes started by regina in /home/regina/workspace/student-services)
+2019-01-15 17:38:15.094  INFO 7367 --- [  restartedMain] c.i.s.s.StudentServicesApplication       : No active profile set, falling back to default profiles: default
+2019-01-15 17:38:15.537  INFO 7367 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2019-01-15 17:38:15.540  INFO 7367 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-15 17:38:15.540  INFO 7367 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-15 17:38:15.572  INFO 7367 --- [  restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-01-15 17:38:15.573  INFO 7367 --- [  restartedMain] o.a.c.c.C.[Tomcat-9].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-01-15 17:38:15.573  INFO 7367 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 477 ms
+2019-01-15 17:38:15.777  INFO 7367 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-15 17:38:15.909  INFO 7367 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-15 17:38:15.913  INFO 7367 --- [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-15 17:38:15.959  INFO 7367 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2019-01-15 17:38:15.960  INFO 7367 --- [  restartedMain] c.i.s.s.StudentServicesApplication       : Started StudentServicesApplication in 0.907 seconds (JVM running for 1556.724)
+2019-01-15 17:38:15.962  INFO 7367 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-15 17:38:26.507  INFO 7367 --- [nio-9090-exec-1] o.a.c.c.C.[Tomcat-9].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-15 17:38:26.508  INFO 7367 --- [nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-15 17:38:26.512  INFO 7367 --- [nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
